@@ -1,3 +1,17 @@
-- Hi, I'm Alex Sparks-Bakota.
-- I'm an undergraduate student at Drexel University studying Computer Science and Mathematics.
-- I have specific interests in LLMs, number theory, and data science.
+class Alex:
+
+  def __init__(self):                                      
+    👨 self.name = "Alex Sparks-Bakota"
+    🏡 self.home = "Trumbull, CT"
+    🎓 self.education = "Drexel University '27"
+    💻 self.majors = ["Computer Science", "Mathematics"]
+                       
+
+  def interests(self):
+    current = {
+      "LLMs": "Learning LLM tools at Drexel AI",
+      "Data Science": "Will be declaring a DS minor soon!",
+      "Linear Algebra": "Discovering how vector math applies to ML"
+    }
+    return current
+
