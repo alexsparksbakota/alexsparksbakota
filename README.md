@@ -11,8 +11,8 @@
     💻 self.majors = ["Computer Science", "Mathematics"]
                        
 
-  def interests(self):
-    current = {
+    def interests(self):
+      current = {
       "LLMs": "Learning LLM tools at Drexel AI",
       "Data Science": "Will be declaring a DS minor soon!",
       "Linear Algebra": "Discovering how vector math applies to ML"
